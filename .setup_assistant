@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: zebra_zero
+    relative_path: urdf/arm.urdf
+  srdf:
+    relative_path: config/zebra_zero.srdf
+  package_settings:
+    author_name: Brendan Burns
+    author_email: brendan.d.burns@gmail.com
+    generated_timestamp: 1728580976
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
