@@ -3,7 +3,7 @@
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
     <!-- Import zebra_zero urdf file -->
-    <xacro:include filename="$(find zebra_zero)/urdf/arm.urdf" />
+    <xacro:include filename="$(find zebra_zero)/urdf/arm.urdf.xacro" />
 
     <!-- Import control_xacro -->
     <xacro:include filename="zebra_zero.ros2_control.xacro" />
