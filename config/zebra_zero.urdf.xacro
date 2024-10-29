@@ -6,9 +6,12 @@
     <xacro:include filename="$(find zebra_zero)/urdf/arm.urdf.xacro" />
 
     <!-- Import control_xacro -->
+
+    <!-- 
     <xacro:include filename="zebra_zero.ros2_control.xacro" />
 
 
     <xacro:zebra_zero_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+    -->
 
 </robot>

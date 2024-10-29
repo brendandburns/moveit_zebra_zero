@@ -13,28 +13,40 @@ joint_limits:
     max_velocity: 1.0
     has_acceleration_limits: true
     max_acceleration: 0.2
+    min_position: -3.14
+    max_position: 3.14
   first_joint:
     has_velocity_limits: true
     max_velocity: 1.0
     has_acceleration_limits: true
     max_acceleration: 0.2
+    min_position: -3.14
+    max_position: 3.14
   fourth_joint:
     has_velocity_limits: true
     max_velocity: 1.0
     has_acceleration_limits: true
     max_acceleration: 0.2
+    min_position: -3.14
+    max_position: 3.14
   second_joint:
     has_velocity_limits: true
     max_velocity: 1.0
     has_acceleration_limits: true
     max_acceleration: 0.2
+    min_position: -3.14
+    max_position: 3.14
   sixth_joint:
     has_velocity_limits: true
     max_velocity: 1.0
     has_acceleration_limits: true
     max_acceleration: 0.2
+    min_position: -3.14
+    max_position: 3.14
   third_joint:
     has_velocity_limits: true
     max_velocity: 1.0
     has_acceleration_limits: true 
     max_acceleration: 0.2
+    min_position: -3.14
+    max_position: 3.14
