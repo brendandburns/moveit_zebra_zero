@@ -77,5 +77,6 @@ def main():
     # plan to goal
     plan_and_execute(zebra, zebra_arm, logger, single_plan_parameters=params, sleep_time=3.0)
 
-main()
+if __name__ == '__main__':
+    main()
 
