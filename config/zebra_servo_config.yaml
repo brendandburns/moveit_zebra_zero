@@ -20,8 +20,8 @@ check_octomap_collisions: false
 
 move_group_name: arm
 
-lower_singularity_threshold: 100.0
-hard_stop_singularity_threshold: 200.0
+lower_singularity_threshold: 2000.0
+hard_stop_singularity_threshold: 2001.0
 leaving_singularity_threshold_multiplier: 2.0
 
 joint_limit_margins:
