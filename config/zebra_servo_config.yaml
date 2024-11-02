@@ -1,6 +1,6 @@
-publish_period: 0.01
-max_expected_latency: 0.1
-# incoming_command_timeout: 10.0
+publish_period: 0.05
+max_expected_latency: 0.2
+incoming_command_timeout: 0.2
 
 command_in_type: speed_units
 scale:
